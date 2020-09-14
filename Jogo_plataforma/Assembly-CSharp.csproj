@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\scriptCamera.cs" />
      <Compile Include="Assets\scriptMegaman.cs" />
+     <Compile Include="Assets\scriptPlataforma.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/HP/Documents/Faculdade/2020_1/Jogos_Digitais/Jogo plataforma/Jogo_plataforma/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

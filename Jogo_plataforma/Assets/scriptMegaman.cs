@@ -20,9 +20,11 @@ public class scriptMegaman : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision){
         chao=true;
+        transform.parent=collision.collider.transform;
     }
     private void OnCollisionExit2D(Collision2D collision){
         chao=false;
+        transform.parent=null;
     }
     // Update is called once per frame
     void Update()
